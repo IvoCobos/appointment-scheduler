@@ -1,0 +1,72 @@
+.appointment-list-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .appointment-table th, .appointment-table td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  .appointment-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .appointment-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .appointment-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .appointment-table td {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .btn-view, .btn-cancel {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-view {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-cancel {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-view:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-cancel:hover {
+    background-color: #c82333;
+  }
+  
